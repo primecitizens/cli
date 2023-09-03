@@ -1,0 +1,8 @@
+Generate pwsh (powershell) completion script for this application.
+
+Load completions for the current session:
+
+    🖖 👀 pwsh | Out-String | Invoke-Expression
+
+To load the completion script for all your new pwsh sessions, add
+the above line to your powershell profile.

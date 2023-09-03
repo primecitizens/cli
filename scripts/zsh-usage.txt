@@ -1,0 +1,16 @@
+Generate zsh completion script for this application.
+
+To use the completion script, you must have zsh completion
+enabled, you can do it by adding the following line to your
+zsh init script (e.g. ~/.zshrc) and restart the shell:
+
+    autoload -U compinit; compinit
+
+Now you may load completions in the current session:
+
+    source <(🖖 👀 zsh)
+
+To load the completion script for all your new zsh sessions,
+either (for easy updates) add the above line to your zsh init
+script, or (for more security) write the output of the command
+`🖖 👀 zsh` to a file inside one of dirs listed by `echo $fpath`.

@@ -1,0 +1,14 @@
+Generate bash completion script for this application.
+
+To use the completion script, you need to have the package
+"bash-completion" installed.
+
+Then you may load completions in the current session:
+
+    source <(🖖 👀 bash)
+
+To load the completion script for all your new bash sessions,
+either (for easy updates) add the above line to your bash profile
+(e.g. ~/.bash_profile) or (for more security) write the output of
+the command `🖖 👀 bash` to a file inside the bash-completion search
+dir (usually the "/etc/bash_completion.d").
