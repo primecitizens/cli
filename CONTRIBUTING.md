@@ -1,8 +1,8 @@
 # Contribute to `cli`
 
-We would encourage you to read our general contribution guidelines at [primecitizens/pcz CONTRIBUTING.md](https://github.com/primecitizens/pcz) (if you haven't done so).
+We would encourage you to read our general contribution guidelines at [primecitizens/pcz](https://github.com/primecitizens/pcz/blob/master/CONTRIBUTING.md) (if you haven't done so).
 
-As our convension, no other additional rules to this repository, but here are some extra help:
+No additional rules to this repository, but here are some extra help when doing code contribution:
 
 ## Code Contribution Checklist
 
@@ -19,4 +19,3 @@ To keep this project maintainable by peasants like us, we created this checklist
 - [ ] When updating completion scripts (`scripts/*`), follow the [checklist for completion scripts](./scripts/README.md#maintenance-checklist)
 - [ ] Documentation
   - [ ] Run `pkgsite` to inspect examples and comments (to install, run `go install golang.org/x/pkgsite/cmd/pkgsite@latest`)
-
