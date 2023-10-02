@@ -15,9 +15,9 @@ import (
 
 // CompCmdShells is wraps all supported shell completion commands:
 //
-//   - bash {complete|script}
-//   - zsh {complete|script}
-//   - pwsh {complete|script}
+//   - bash {,complete}
+//   - zsh {,complete}
+//   - pwsh {,complete}
 //
 // To use it, the return value of (&CompCmdShells{}).Setup(...) should
 // be a direct child to your application's root command.

@@ -10,7 +10,7 @@ import (
 
 // FlagHelp defines commonly used flag metadata
 //
-// Hint: use {Explicit,Implicit}Flag.Extra to hold FlagHelp for documentation
+// Hint: use .Extra of a flag to hold FlagHelp for documentation
 // purpose.
 type FlagHelp struct {
 	// Experimental explains why the flag is Experimental.

@@ -523,6 +523,10 @@ func (r *ReflectIndexer) NthFlag(i int) (FlagInfo, bool) {
 		flagIndex++
 		totalFlags++
 		if flagIndex < len(r.Refs) { // has been checked
+			if i == 0 {
+				return r.Refs[flagIndex].Info, true
+			}
+			i--
 			continue
 		}
 
